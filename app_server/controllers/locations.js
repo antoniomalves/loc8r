@@ -5,7 +5,26 @@ module.exports.homelist = function(req, res){
     pageHeader: {
       title: 'loc8r',
       strapline: 'Find places to work with near you!'
-    }
+    },
+    locations:[{
+      name: 'Starcups',
+      address: '125 High Street, Reading, RG6 1PS',
+      ratting: 3,
+      facilities: ['Hot drinks', 'Food', 'Premium wifi'],
+      distance: '100m'
+    },{
+      name: 'Cafe Hero',
+      address: '125 High Street, Reading, RG6 1PS',
+      ratting: 4,
+      facilities: ['Hot drinks', 'Food', 'Premium wifi'],
+      distance: '200m'
+    },{
+      name: 'Burger Queen',
+      address: '125 High Street, Reading, RG6 1PS',
+      ratting: 2,
+      facilities: ['Food', 'Premium wifi'],
+      distance: '250m'
+    }]
   });
 };
 
